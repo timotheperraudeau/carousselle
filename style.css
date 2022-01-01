@@ -1,0 +1,21 @@
+.carousel-items{
+    display: flex;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+    overflow-x: hidden;
+}
+
+.carousel-item{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+    overflow-x: auto;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
