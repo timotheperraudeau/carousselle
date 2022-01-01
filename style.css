@@ -32,3 +32,7 @@ main{
     /* border: 1px solid black; */
     top: 285px;
 }
+
+h1{
+    text-decoration: underline;
+}
